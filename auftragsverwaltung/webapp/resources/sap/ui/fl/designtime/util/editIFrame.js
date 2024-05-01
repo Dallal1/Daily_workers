@@ -1,0 +1,7 @@
+/*!
+ * OpenUI5
+ * (c) Copyright 2009-2024 SAP SE or an SAP affiliate company.
+ * Licensed under the Apache License, Version 2.0 - see LICENSE.txt.
+ */
+sap.ui.define(["sap/ui/core/Element","sap/ui/rta/plugin/iframe/AddIFrameDialog"],function(e,t){"use strict";return async function i(a){const r=new t;const n=a.get_settings();const o=a.getRenameInfo();if(o){const t=e.getElementById(o.sourceControlId);n.title=t.getProperty(o.propertyName)}const g=await t.buildUrlBuilderParametersFor(a);const c={parameters:g,frameUrl:n.url,frameWidth:n.width,frameHeight:n.height,title:n.title,asContainer:!!n.title,useLegacyNavigation:n.useLegacyNavigation,updateMode:true};const s=await r.open(c,a);if(!s){return[]}const u=[];let l=false;const h={url:n.url,height:n.height,width:n.width,useLegacyNavigation:n.useLegacyNavigation};if(s.frameHeight+s.frameHeightUnit!==n.height){l=true;h.height=s.frameHeight+s.frameHeightUnit}if(s.frameWidth+s.frameWidthUnit!==n.width){l=true;h.width=s.frameWidth+s.frameWidthUnit}if(s.frameUrl!==n.url){l=true;h.url=s.frameUrl}if(s.useLegacyNavigation!==!!n.useLegacyNavigation){l=true;h.useLegacyNavigation=s.useLegacyNavigation}if(l){u.push({selectorControl:a,changeSpecificData:{changeType:"updateIFrame",content:h}})}if(s.title!==n.title){const t={selectorControl:e.getElementById(o.selectorControlId),changeSpecificData:{changeType:"rename",content:{value:s.title}}};u.push(t)}return u}});
+//# sourceMappingURL=editIFrame.js.map

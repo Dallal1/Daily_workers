@@ -1,0 +1,13 @@
+{
+  "name": "sap-m-sample--planning-calendar-min-max",
+  "version": "1.0.0",
+  "author": "SAP SE",
+  "description": "Sample: Planning Calendar - with min. and max. date",
+  "scripts": {
+    "start": "ui5 serve",
+    "build": "ui5 build"
+  },
+  "devDependencies": {
+    "@ui5/cli": "^3"
+  }
+}
