@@ -1,9 +1,245 @@
+
 {
-    "tabel":[
+    "appointments": [
         {
-            "start": "20230105012",
-            "end": null,
-            "titel": "test"
+        
+        "id": 547,
+        
+        "auftragsnummer": "2023-000131",
+        
+        "kurztitel": "Standard-Ticket",
+        
+        "langtitel": "TicketID: 000135",
+        
+        "bemerkung": null,
+        
+        "auftraggeber": "0000000",
+        
+        "bearbeiter": null,
+        
+        "crdat": "2023-12-18T15:13:46.143",
+        
+        "cruid": "Ingenieur Studio HOLLAUS",
+        
+        "chdat": "2023-12-18T15:13:46.143",
+        
+        "chuid": "Ingenieur Studio HOLLAUS",
+        
+        "beginndatum": "2023-12-18T15:13:46.143",
+        
+        "endedatum": null,
+        
+        "erledigungsdatum": null,
+        
+        "statusnum": 10010,
+        
+        "statusbem": "",
+        
+        "genpfl": null,
+        
+        "parentid": null,
+        
+        "ispos": false,
+        
+        "kategorie": null,
+        
+        "dienststelle": null,
+        
+        "kostenstelle": null,
+        
+        "standort": "000001-001-097-000-003",
+        
+        "nummerintern": null,
+        
+        "genehmigungspflicht": null,
+        
+        "dion": null,
+        
+        "iantrag": null,
+        
+        "gendat": null,
+        
+        "antragnr": null,
+        
+        "gentyp": null,
+        
+        "firma": null,
+        
+        "addrooms": "test",
+        
+        "schadensfeststeller": "",
+        
+        "techbemerkung": null,
+        
+        "isprinted": false,
+        
+        "meldedatum": null,
+        
+        "prioritaet": "Keine Auswahl",
+        
+        "bereich": 10000,
+        
+        "wiedervorlagedatum": null,
+        
+        "anlage": null,
+        
+        "ausfuehrende": null,
+        
+        "interneverrechnung": false,
+        
+        "vergabetyp": null,
+        
+        "projekt": null,
+        
+        "zeitgesch": null,
+        
+        "kostengesch": null,
+
+        "anweisungen": null,
+
+        "gewaehrende": null,
+
+        "folgeauftrag": null,
+
+        "organisationseinheit": null,
+
+        "vertragsleistung": null,
+
+        "maxvergabe": null,
+
+        "editid": null,
+
+        "issammelauftrag": false,
+
+        "firmaansprechid": null,
+
+        "firmapostid": null,
+
+        "issenttoexternal": null,
+
+        "okategorie": null,
+
+        "zahlung": null,
+
+        "reserven": null,
+
+        "aufwand": null,
+
+        "anwaltgegner": null,
+
+        "erstgericht": null,
+
+        "klagsentscheidung": null,
+
+        "berufungsgericht": null,
+
+        "entscheidungsbegruendung": null,
+
+        "geschaedigter": null,
+
+        "schadensnummer": "rkvview@hollaus.at",
+
+        "anwaltnoe": null,
+
+        "klagsentscheidungberufung": null,
+
+        "entscheidungsbegruendungberufung": null,
+
+        "sonstkosten": null,
+
+        "auftragsnummer_jahr": "2023",
+
+        "auftragsnummer_nummer": "2000131",
+
+        "refid": null,
+
+        "schlagwoerter": null,
+
+        "ref_template_pos_uid": null,
+
+        "erinnerungsdatumaus fuehrende": null,
+
+        "jahr": "2023",
+
+        "nummer": "000131",
+
+        "rechnungszuweisung": "Rechnungszuweisung",
+
+        "statustext": "Offen",
+
+        "closedstate": false,
+
+        "printedstate": false,
+
+        "typ": null,
+
+        "wert": null,
+
+        "einheitid": null,
+
+        "tarif": null,
+
+        "kosten": null,
+
+        "wertvorgabe": null,
+
+        "bereichname": "Aufträge",
+
+        "hassuborders": null,
+
+        "auftraggebertel": null,
+
+        "issubauftrag": false,
+
+        "_assignedhid": null,
+
+        "anlagefullname": null,
+
+        "anlagename": null,
+
+        "anlagenummer": null,
+
+        "doccount": 0,
+
+        "erstelltaus": "manuell",
+
+        "_assignedprojectid": null,
+
+        "beginndatumx14": "20231218151346",
+
+        "endedatumx14": null,
+
+        "erledigungsdatumx14": null,
+
+        "auftraggeber_names": "Ingenieur Studio HOLLAUS",
+
+        "bearbeiter_names": null,
+
+        "ausfuehrende_names": null,
+
+        "standort_name": "Stadion\r\nRathaus_Leonding\r\n2TG 000001-001-097-000-",
+
+        "auftraggeber_subpnr": null,
+
+        "bearbeiter_subpnr": null,
+
+        "ausfuehrende_subpnr": null,
+
+        "auftraggeber_virtrespnr": "0000000;",
+
+        "bearbeiter_virtrespnr": ";",
+
+        "ausfuehrende_virtrespnr": ";",
+
+        "status_delay_text": null,
+
+        "status_delay_color": null,
+
+        "kategorietext": null,
+
+        "okategorietext": null,
+
+        "maxvergabenum": null
         }
     ]
 }

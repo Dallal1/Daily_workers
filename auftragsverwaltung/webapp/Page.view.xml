@@ -3,19 +3,16 @@
 	xmlns:mvc="sap.ui.core.mvc"
 	xmlns:unified="sap.ui.unified"
 	xmlns="sap.m">
-	<!--<VBox class="sapUiSmallMargin">
+	<VBox class="sapUiSmallMargin">
 		<PlanningCalendar
 			id="PC1"
 			showIntervalHeaders="false"
 			startDate="{path: '/startDate'}"
 			minDate="{path: '/minDate'}"
 			maxDate="{path: '/maxDate'}"
-			rows="{path: '/people'}"
+			rows="{path: '/appointments'}"
 			appointmentsVisualization="Filled"
 			appointmentSelect="handleAppointmentSelect">
-			<toolbarContent>
-				<Title text="Title" titleStyle="H4"/>
-			</toolbarContent>
 			<rows>
 				<PlanningCalendarRow
 					icon="{pic}"
@@ -45,15 +42,6 @@
 					</intervalHeaders>
 				</PlanningCalendarRow>
 			</rows>
-		</PlanningCalendar>
-	</VBox>-->
-	<VBox>
-		<PlanningCalendar id="PC1">
-			<toolbarContent>
-				<Title text="Titel" titleStyle="H4"/>
-			</toolbarContent>
-			<appointments>
-			</appointments>
 		</PlanningCalendar>
 	</VBox>
 </mvc:View>
