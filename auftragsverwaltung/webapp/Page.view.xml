@@ -7,9 +7,6 @@
 		<PlanningCalendar
 			id="PC1"
 			showIntervalHeaders="false"
-			startDate="{path: '/startDate'}"
-			minDate="{path: '/minDate'}"
-			maxDate="{path: '/maxDate'}"
 			rows="{path: '/appointments'}"
 			appointmentsVisualization="Filled"
 			appointmentSelect="handleAppointmentSelect">
@@ -18,28 +15,17 @@
 					icon="{pic}"
 					title="{name}"
 					text="{role}"
-					appointments="{path : 'appointments', templateShareable: false}"
-					intervalHeaders="{path: 'headers', templateShareable: false}">
+					appointments="{path : 'appointments', templateShareable: false}">
 					<appointments>
 						<unified:CalendarAppointment
-							startDate="{start}"
-							endDate="{end}"
-							icon="{pic}"
-							title="{title}"
-							text="{info}"
-							type="{type}"
-							tentative="{tentative}">
+							startDate="2024-05-04T09:00:00"
+							endDate="2024-05-04T10:00:00"  
+							title="Meeting with Max Mustermann"
+							text="test"
+							type="Type02"
+							tentative="false">
 						</unified:CalendarAppointment>
 					</appointments>
-					<intervalHeaders>
-						<unified:CalendarAppointment
-							startDate="{start}"
-							endDate="{end}"
-							icon="{pic}"
-							title="{title}"
-							type="{type}">
-						</unified:CalendarAppointment>
-					</intervalHeaders>
 				</PlanningCalendarRow>
 			</rows>
 		</PlanningCalendar>

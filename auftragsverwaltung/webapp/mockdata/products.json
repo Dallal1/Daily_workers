@@ -1,8 +1,7 @@
 
 {
     "appointments": [
-        {
-        
+        {       
         "id": 547,
         
         "auftragsnummer": "2023-000131",
@@ -27,7 +26,7 @@
         
         "beginndatum": "2023-12-18T15:13:46.143",
         
-        "endedatum": null,
+        "endedatum": "2023-12-18T15:15:46.143",
         
         "erledigungsdatum": null,
         
