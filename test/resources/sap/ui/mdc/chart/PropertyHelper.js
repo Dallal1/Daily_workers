@@ -1,7 +1,0 @@
-/*!
- * OpenUI5
- * (c) Copyright 2009-2024 SAP SE or an SAP affiliate company.
- * Licensed under the Apache License, Version 2.0 - see LICENSE.txt.
- */
-sap.ui.define(["../util/PropertyHelper","sap/ui/core/Lib","sap/ui/mdc/enums/ChartItemRoleType"],(t,e,r)=>{"use strict";const p=t.extend("sap.ui.mdc.chart.PropertyHelper",{constructor:function(e,r){t.call(this,e,r,{filterable:true,sortable:true,propertyInfos:true,groupable:{type:"boolean"},aggregatable:{type:"boolean"},propertyPath:{type:"string"},aggregationMethod:{type:"string"},role:{type:"string"},datapoint:{type:"object"},criticality:{type:"object"},textProperty:{type:"string"},textFormatter:{type:"object"},unitPath:{type:"string"}})}});p.prototype.prepareProperty=function(e){if(!e.path&&e.propertyPath){e.path=e.propertyPath}if(!e.typeConfig&&e.dataType){const t=e.formatOptions?e.formatOptions:null;const r=e.constraints?e.constraints:{};e.typeConfig=this.getParent().getTypeMap().getTypeConfig(e.dataType,t,r)}t.prototype.prepareProperty.apply(this,arguments);e.isAggregatable=function(){if(e){return e.isComplex()?false:e.aggregatable}}};p.prototype.getAllAggregatableProperties=function(){return this.getProperties().filter(t=>t.isAggregatable())};return p});
-//# sourceMappingURL=PropertyHelper.js.map

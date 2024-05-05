@@ -17,13 +17,7 @@
 					text="{role}"
 					appointments="{path : 'appointments', templateShareable: false}">
 					<appointments>
-						<unified:CalendarAppointment
-							startDate="2024-05-04T09:00:00"
-							endDate="2024-05-04T10:00:00"  
-							title="Meeting with Max Mustermann"
-							text="test"
-							type="Type02"
-							tentative="false">
+						<unified:CalendarAppointment>
 						</unified:CalendarAppointment>
 					</appointments>
 				</PlanningCalendarRow>
